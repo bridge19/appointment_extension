@@ -1,0 +1,50 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "crmmot",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "CRM MOT"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/orion/",
+      "target": {
+        "type": "service",
+        "name": "orion",
+        "preferLocal": true
+      },
+      "description": "Orion Server"
+    },
+    {
+      "path": "/ui5_execute_abap",
+      "target": {
+        "type": "destination",
+        "name": "GM6_https",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "GM6_https"
+    }
+  ]
+}

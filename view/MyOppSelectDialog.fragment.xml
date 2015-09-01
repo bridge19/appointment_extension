@@ -1,0 +1,17 @@
+<SelectDialog
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core"
+        title="{i18n>erco.opportunities}"
+        noDataText="{i18n>view.Appointment.no_data_text}"
+        multiSelect=""
+        search="searchMyOpp"
+        confirm="setMyOpp"
+        liveChange="liveSearchMyOpp"
+        items="{path : 'json>/MyOpportunities'}">
+    <StandardListItem title="{json>Description}" description="{json>ObjectId}">
+        <customData>
+            <core:CustomData key="Description" value="{json>Description}"/>
+            <core:CustomData key="ObjectId" value="{json>ObjectId}"/>
+        </customData>
+    </StandardListItem>
+</SelectDialog>

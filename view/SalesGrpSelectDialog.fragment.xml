@@ -1,0 +1,18 @@
+<SelectDialog
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core"
+        title="{i18n>erco.salesgroup}"
+        noDataText="{i18n>view.Appointment.no_data_text}"
+        multiSelect=""
+        search="searchSalesGrp"
+        confirm="setSalesGrp"
+        liveChange="liveSearchSalesGrp"
+        items="{path : 'json>/SalesGrps'}">
+    <StandardListItem title="{json>TxtLong}" description="{json>TxtShort}">
+        <customData>
+            <core:CustomData key="SalesGrpIdO" value="{json>SalesGrpIdO}"/>
+            <core:CustomData key="TxtLong" value="{json>TxtLong}"/>
+            <core:CustomData key="Mine" value="{json>Mine}"/>
+        </customData>
+    </StandardListItem>
+</SelectDialog>
