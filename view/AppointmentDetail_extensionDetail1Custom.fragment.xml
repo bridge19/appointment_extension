@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:me="sap.me" xmlns:form="sap.ui.layout.form" xmlns:element="sap.ui.layout.form.FormElement" xmlns:dlg="sap.m.dialog" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:caui="sap.ca.ui">
+	<!-- The following controls were copied from the parent view -->
+	<ObjectHeader xmlns="sap.m" title="{Description}" titleActive="false" id="ohdetail" numberUnit="{parts:[ {path:'FromDate'}, {path:'ToDate'}], formatter: 'cus.crm.mycalendar.util.Conversions.formatDuration'}">
+		<ObjectAttribute id="ProcessTypeDescription" visible="false"></ObjectAttribute>
+		<ObjectAttribute id="ZRelatedOpportunity"></ObjectAttribute>
+		<statuses>
+			<ObjectStatus id="statusText_Detail" text="{StatusTxt}" state="{path:'Status', formatter:'cus.crm.mycalendar.util.Conversions.formatStatusText'}"/>
+			<ObjectStatus id="prioText_Detail" text="{PriorityTxt}"/>
+			<ObjectStatus id="pf_Detail" text="{path:'PrivatFlag', formatter:'cus.crm.mycalendar.util.Conversions.formatPrivateDescription'}"/>
+		</statuses>
+		<attributes>
+			<ObjectAttribute id="accountField" text="{parts :[{path : 'AccountTxt'},{path : 'Account'}],formatter : 'cus.crm.mycalendar.util.Conversions.formatAccountText'}" active="true" press="onAccount"/>
+			<ObjectAttribute id="contactField" text="{path:'ContactTxt', formatter:'cus.crm.mycalendar.util.Conversions.formatContactTxt'}" active="true" press="onContact"/>
+			<ObjectAttribute id="responsibleField" text="{path:'ResponsibleTxt', formatter:'cus.crm.mycalendar.util.Conversions.formatResponsibleTxt'}" active="true" press="onResponsible"/>
+			<ObjectAttribute id="fromDateInHeader" text="{parts:[{path: 'FromDate'}, {path: 'ToDate'}, {path: 'AllDay'}], formatter: '.formatFromDateInHeader'}"/>
+			<ObjectAttribute id="toDateInHeader" text="{parts:[{path: 'FromDate'}, {path: 'ToDate'}, {path: 'AllDay'}], formatter: '.formatToDateInHeader'}"/>
+			<!-- <ObjectAttribute text="{parts:[{path: 'ToDate'}, {path: 'FromDate}], 
+				formatter: 'cus.crm.mycalendar.util.Conversions.formatToDateInHeader'}"></ObjectAttribute> -->
+			<ObjectAttribute id="location" text="{Location}"/>
+		</attributes>
+	</ObjectHeader>
+</core:FragmentDefinition>
