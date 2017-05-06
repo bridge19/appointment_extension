@@ -1,0 +1,161 @@
+{
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 09:03:23 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 17 Aug 2015 07:14:32 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 17 Aug 2015 07:13:20 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 09:32:07 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 09:33:10 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 10:27:59 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.replaceviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 12:13:57 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 13:55:40 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 14:00:47 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 14:03:06 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 14:04:19 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 14:28:02 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 14:43:33 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 05 Aug 2015 05:47:06 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.i18ncomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 15:33:15 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollerhook",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 15:49:38 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 02 Jun 2015 15:55:40 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 03 Jun 2015 09:11:37 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 18 Jun 2015 11:38:49 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 18 Jun 2015 11:41:57 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.replaceservicecomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 10 Aug 2015 14:03:56 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de,es,it,nl",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZCRM_APPOINTMENT_ERCO_SRV",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "extensibility": {
+    "controllers": {
+      "AppointmentList": "/CRM_MYCAL/view/AppointmentList.controller.js",
+      "AppointmentDetail": "/CRM_MYCAL/view/AppointmentDetail.controller.js",
+      "Attachments": "/CRM_MYCAL/view/Attachments.controller.js",
+      "Main": "/CRM_MYCAL/view/Main.controller.js",
+      "NewAppointment": "/CRM_MYCAL/view/NewAppointment.controller.js"
+    },
+    "views": {
+      "AppointmentList": "/CRM_MYCAL/view/AppointmentList.view.xml",
+      "Attachments": "/CRM_MYCAL/view/Attachments.view.xml",
+      "Attachments_chg": "/CRM_MYCAL/view/Attachments_chg.view.xml",
+      "AppointmentDetail": "/CRM_MYCAL/view/AppointmentDetail.view.xml",
+      "Main": "/CRM_MYCAL/view/Main.view.xml",
+      "NewAppointment": "/CRM_MYCAL/view/NewAppointment.view.xml"
+    },
+    "fragments": {
+      "AccountSearch": "/CRM_MYCAL/view/AccountSearch.fragment.xml",
+      "AttendeeEdit": "/CRM_MYCAL/view/AttendeeEdit.fragment.xml",
+      "ContactSearch": "/CRM_MYCAL/view/ContactSearch.fragment.xml",
+      "EditLayout": "/CRM_MYCAL/view/EditLayout.fragment.xml",
+      "EmployeeSearch": "/CRM_MYCAL/view/EmployeeSearch.fragment.xml",
+      "EmployeeF4": "/CRM_MYCAL/view/EmployeeF4.fragment.xml",
+      "sharedDialog": "/CRM_MYCAL/view/sharedDialog.fragment.xml",
+      "ShowErrorMsg": "/CRM_MYCAL/view/ShowErrorMsg.fragment.xml",
+      "ProcessTypeDialog": "/CRM_MYCAL/view/ProcessTypeDialog.fragment.xml"
+    },
+    "type": "Workspace",
+    "component": "/CRM_MYCAL/Component.js",
+    "configuration": "/CRM_MYCAL/Configuration.js",
+    "namespace": "cus.crm.mycalendar",
+    "resourceBundle": "i18n/i18n.properties",
+    "parenturl": "../CRM_MYCAL"
+  },
+  "deploy": {
+    "destination": "GM6_https",
+    "name": "ZJERRY20150901"
+  }
+}

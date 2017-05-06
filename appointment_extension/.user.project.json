@@ -1,0 +1,46 @@
+{
+  "run": [
+    {
+      "filePath": "/zextmycal/Component.js",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "fiorirunner",
+        "id": 7941607,
+        "displayName": "New SAP Fiori Component on Sandbox"
+      }
+    },
+    {
+      "filePath": "/CRM_MYCALExtension/Component.js",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "fiorirunner",
+        "id": 465168,
+        "displayName": "New SAP Fiori Component 1"
+      }
+    },
+    {
+      "filePath": "/CRM_MYCALExtension/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 9986368,
+        "displayName": "New Web Application 1"
+      }
+    }
+  ]
+}

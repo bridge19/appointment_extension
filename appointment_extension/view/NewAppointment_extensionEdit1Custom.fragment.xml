@@ -1,0 +1,82 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:me="sap.me" xmlns:form="sap.ui.layout.form" xmlns:layout="sap.ui.layout" xmlns:caui="sap.ca.ui" xmlns:html="http://www.w3.org/1999/xhtml">
+	<form:FormElement id="salesOrgElement">
+    	<form:label>
+    		<Label id="salesOrgLabel" text="{i18n>erco.salesorganization}" required="true" />
+    	</form:label>
+		<form:fields>
+    		<Input id="salesOrg" value=""
+    			showValueHelp="true" 
+    			showSuggestion="true"
+    			suggest="onSalesOrgSuggest"
+    			filterSuggests="false"
+    			valueHelpRequest="showSalesOrgF4"
+    			liveChange="onSalesOrgInputFieldChanged"
+    			suggestionItemSelected="onSalesOrgSuggestItemSelected"
+    			valueHelpOnly="false">
+    			<suggestionItems>
+        			<core:Item text="{json>TxtLong}" key="{json>TxtShort}"></core:Item>
+    			</suggestionItems>
+    		</Input>
+		</form:fields>
+	</form:FormElement>
+	<form:FormElement id="salesOffElement">
+    	<form:label>
+    		<Label id="salesOffLabel" text="{i18n>erco.salesoffice}" required="true" />
+    	</form:label>
+		<form:fields>
+    		<Input id="salesOff" value=""
+    			showValueHelp="true" 
+    			showSuggestion="true"
+    			suggest="onSalesOffSuggest"
+    			filterSuggests="false"
+    			valueHelpRequest="showSalesOffF4"
+    			liveChange="onSalesOffInputFieldChanged"
+    			suggestionItemSelected="onSalesOffSuggestItemSelected"
+    			valueHelpOnly="false">
+    			<suggestionItems>
+        			<core:Item text="{json>TxtLong}" key="{json>TxtShort}"></core:Item>
+    			</suggestionItems>
+    		</Input>
+		</form:fields>
+	</form:FormElement>
+	<form:FormElement id="salesGrpElement">
+    	<form:label>
+    		<Label id="salesGrpLabel" text="{i18n>erco.salesgroup}" required="true" />
+    	</form:label>
+		<form:fields>
+			<Input id="salesGrp" value=""
+				showValueHelp="true" 
+				showSuggestion="true"
+				suggest="onSalesGrpSuggest"
+				filterSuggests="false"
+				valueHelpRequest="showSalesGrpF4"
+				liveChange="onSalesGrpInputFieldChanged"
+				suggestionItemSelected="onSalesGrpSuggestItemSelected"
+				valueHelpOnly="false">
+				<suggestionItems>
+		    		<core:Item text="{json>TxtLong}" key="{json>TxtShort}"></core:Item>
+				</suggestionItems>
+			</Input>
+		</form:fields>
+	</form:FormElement>
+	<form:FormElement id="myOppElement">
+    	<form:label>
+    		<Label id="myOppLabel" text="{i18n>view.Appointment.Opportunity}" required="false" />
+    	</form:label>
+		<form:fields>
+			<Input id="myOpp" value=""
+				showValueHelp="true" 
+				showSuggestion="true"
+				suggest="onMyOppSuggest"
+				filterSuggests="false"
+				valueHelpRequest="showMyOppF4"
+				liveChange="onMyOppInputFieldChanged"
+				suggestionItemSelected="onMyOppSuggestItemSelected"
+				valueHelpOnly="false">
+				<suggestionItems>
+		    		<core:Item text="{json>Description}" key="{json>ObjectId}"></core:Item>
+				</suggestionItems>
+			</Input>
+		</form:fields>
+	</form:FormElement>
+</core:FragmentDefinition>
