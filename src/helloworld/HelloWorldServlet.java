@@ -51,11 +51,29 @@ List<String> allowedUserId = Arrays.asList(getServletContext().getInitParameter(
 		}
     	}
     }
+    /*
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	handleCORS(request, response);
     	fillResponse(request, response);
     	
     	trace(request);
+    }*/
+    
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	testXSS(request, response);
+    }
+    private void testXSS(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+    	String userAgent = req.getHeader("user-agent");
+    	String employeeID = req.getParameter("id");
+    	String clientBrowser = "Unknonw";
+    	if( userAgent != null){
+    	  clientBrowser = userAgent;
+    	}
+    	req.setAttribute("client.browser", clientBrowser);
+    	req.setAttribute("id", employeeID);
+    	System.out.println(userAgent);
+    	System.out.println(employeeID);
+    	req.getRequestDispatcher("/showBrowser.jsp").forward(req,resp);
     	
     }
 
