@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+Hello ${id}, your browser version:
+<p>${client_browser}</p>
 </body>
 </html>

@@ -69,7 +69,7 @@ List<String> allowedUserId = Arrays.asList(getServletContext().getInitParameter(
     	if( userAgent != null){
     	  clientBrowser = userAgent;
     	}
-    	req.setAttribute("client.browser", clientBrowser);
+    	req.setAttribute("client_browser", clientBrowser);
     	req.setAttribute("id", employeeID);
     	System.out.println(userAgent);
     	System.out.println(employeeID);
