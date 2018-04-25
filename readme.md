@@ -48,3 +48,29 @@ Specifies the settings profile to be used when opening connections. Choosing the
 Create a new dummy servlet project and check whether it works - 6:24PM
 
 Servlet could be created via wizard
+
+This is default xml in helloworld project:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>helloworld</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>helloworld.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
+```
