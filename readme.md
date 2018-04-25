@@ -9,3 +9,5 @@ github url: https://github.com/i042416/appointment_extension.git
 wdf proxy can download artifacts in Maven remote repository, however hangs when trying to run application in SCP!!!!
 
 SCN discussion: https://archive.sap.com/discussions/thread/3578829
+
+hanatrial.ondemand.com 
