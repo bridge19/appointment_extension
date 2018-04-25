@@ -33,3 +33,6 @@ java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -clean
+
+!ENTRY org.eclipse.core.net 1 0 2018-04-25 16:58:11.857
+!MESSAGE System property http.proxyHost has been set to proxy.hkg.sap.corp by an external source. This value will be overwritten using the values from the preferences
