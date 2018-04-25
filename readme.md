@@ -109,3 +109,5 @@ java.lang.NullPointerException
 ```
 
 7:34PM hello world project工作了。
+
+8:15PM:  The deployment for the first time will not start application automatically, the second time did the trick!
