@@ -71,9 +71,7 @@ List<String> allowedUserId = Arrays.asList(getServletContext().getInitParameter(
     	}
     	req.setAttribute("client_browser", clientBrowser);
     	req.setAttribute("id", employeeID);
-    	System.out.println(userAgent);
-    	System.out.println(employeeID);
-    	//resp.setHeader("X-XSS-Protection", "0");
+    	resp.setHeader("X-XSS-Protection", "0");
     	req.getRequestDispatcher("/showBrowser.jsp").forward(req,resp);
     	
     }
