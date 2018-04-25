@@ -80,3 +80,7 @@ hello world application does not work as well!!!
 some other guy have the same issue: https://open.sap.com/courses/cp1-2/sections/98a8fddb-7a8f-4392-85b7-8db2d3ac4d8d/question/0d03d320-4252-4378-950c-e50560e71c51
 
 From the Runtime dropdown box, select a specific runtime. If you leave the Automatic option, the server will load the target runtime of your application.
+
+SAP Cloud Platform applications run on **a modular and lightweight application runtime container** where they can use the platform services APIs and Java EE APIs according to standard patterns.
+
+Depending on the runtime type and corresponding SDK you are using, SAP Cloud Platform provides the following profiles of the application runtime container:
