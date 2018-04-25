@@ -87,3 +87,5 @@ Depending on the runtime type and corresponding SDK you are using, SAP Cloud Pla
 难道我SDK用的不对？6:51PM
 Demo里老外用的tomcat 8，Java EE 6 Web Profile他说的不需要。
 6:57PM 我的错误极有可能是runtime配置里的SDK和的download的tomcat 8的SDK不匹配造成。
+
+SAP help for [Application runtime container](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613bd28711e1014839a8273b0e91070.html)
