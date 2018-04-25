@@ -74,3 +74,7 @@ This is default xml in helloworld project:
   </servlet-mapping>
 </web-app>
 ```
+
+hello world application does not work as well!!!
+
+some other guy have the same issue: https://open.sap.com/courses/cp1-2/sections/98a8fddb-7a8f-4392-85b7-8db2d3ac4d8d/question/0d03d320-4252-4378-950c-e50560e71c51
