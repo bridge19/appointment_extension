@@ -95,3 +95,5 @@ SAP help for [Application runtime container](https://help.sap.com/viewer/65de297
 **Java Web runtime** is deprecated. Support is discontinued since 31th December 2017. We recommend using **Java Web Tomcat 8**. For more information, see Java Web (Migrating to Java Web Tomcat section).
 
 now could not even publish application to SCP!! Nullpointer exception!! 7:14PM
+
+proxy setting provided by one Chinese colleague: https://answers.sap.com/questions/259118/cannot-deploy-java-application-to-neo-canary-lands.html
