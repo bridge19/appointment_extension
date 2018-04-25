@@ -97,3 +97,13 @@ SAP help for [Application runtime container](https://help.sap.com/viewer/65de297
 now could not even publish application to SCP!! Nullpointer exception!! 7:14PM
 
 proxy setting provided by one Chinese colleague: https://answers.sap.com/questions/259118/cannot-deploy-java-application-to-neo-canary-lands.html
+
+error log:
+
+```java
+java.lang.NullPointerException
+	at com.sap.core.tools.eclipse.server.cloud.util.RuntimeUtil.computeBestRuntimeToUse(RuntimeUtil.java:199)
+	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.shouldExecuteRepublishAndRestartOperation(CloudPublishUtil.java:648)
+	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.shouldExecuteRepublishAndRestartOperation(CloudPublishUtil.java:603)
+	at com.sap.core.tools.eclipse.server.cloud.publish.CloudPublishOperation.getOperationKind(CloudPublishOperation.java:155)
+```
