@@ -107,3 +107,5 @@ java.lang.NullPointerException
 	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.shouldExecuteRepublishAndRestartOperation(CloudPublishUtil.java:603)
 	at com.sap.core.tools.eclipse.server.cloud.publish.CloudPublishOperation.getOperationKind(CloudPublishOperation.java:155)
 ```
+
+7:34PM hello world project工作了。
