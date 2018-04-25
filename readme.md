@@ -42,3 +42,5 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 Specifies the settings profile to be used when opening connections. Choosing the Direct provider causes all the connections to be opened without the use of a proxy server. Selecting Manual causes settings defined in Eclipse to be used. On some platforms there is also a Native provider available, selecting this one causes settings that were discovered in the OS to be used.
 
 2018-04-25 5:31PM install a new version of Eclipse and works under SAP internet network. 
+
+2018-04-25 6:01PM deployed to SCP successfully, however 404 error when testing in SCP.
