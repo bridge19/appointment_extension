@@ -36,3 +36,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.core.net 1 0 2018-04-25 16:58:11.857
 !MESSAGE System property http.proxyHost has been set to proxy.hkg.sap.corp by an external source. This value will be overwritten using the values from the preferences
+
+# Eclipse proxy
+
+Specifies the settings profile to be used when opening connections. Choosing the Direct provider causes all the connections to be opened without the use of a proxy server. Selecting Manual causes settings defined in Eclipse to be used. On some platforms there is also a Native provider available, selecting this one causes settings that were discovered in the OS to be used.
