@@ -44,3 +44,5 @@ Specifies the settings profile to be used when opening connections. Choosing the
 2018-04-25 5:31PM install a new version of Eclipse and works under SAP internet network. 
 
 2018-04-25 6:01PM deployed to SCP successfully, however 404 error when testing in SCP.
+
+Create a new dummy servlet project and check whether it works - 6:24PM
