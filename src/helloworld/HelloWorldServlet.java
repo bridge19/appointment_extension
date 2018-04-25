@@ -1,5 +1,8 @@
 package helloworld;
 
+/* Jerry updated in 2018-04-25 8:13PM 
+ * The deployment for the first time will not start application automatically!
+ * */
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
