@@ -10,7 +10,7 @@ wdf proxy can download artifacts in Maven remote repository, however hangs when 
 
 SCN discussion: https://archive.sap.com/discussions/thread/3578829
 
-hanatrial.ondemand.com 
+hanatrial.ondemand.com - can be accessed in SAP internet!
 
 check information in workspace log under .metadata folder:
 !MESSAGE System property https.proxyHost is set to proxy but should be proxy.hkg.salesforce.corp.
