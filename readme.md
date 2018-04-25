@@ -85,3 +85,4 @@ SAP Cloud Platform applications run on **a modular and lightweight application r
 
 Depending on the runtime type and corresponding SDK you are using, SAP Cloud Platform provides the following profiles of the application runtime container.
 难道我SDK用的不对？6:51PM
+Demo里老外用的tomcat 8，Java EE 6 Web Profile他说的不需要。
