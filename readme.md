@@ -83,4 +83,5 @@ From the Runtime dropdown box, select a specific runtime. If you leave the Autom
 
 SAP Cloud Platform applications run on **a modular and lightweight application runtime container** where they can use the platform services APIs and Java EE APIs according to standard patterns.
 
-Depending on the runtime type and corresponding SDK you are using, SAP Cloud Platform provides the following profiles of the application runtime container:
+Depending on the runtime type and corresponding SDK you are using, SAP Cloud Platform provides the following profiles of the application runtime container.
+难道我SDK用的不对？6:51PM
