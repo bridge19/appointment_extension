@@ -149,3 +149,7 @@ main.main()
 [Building multi-target applications (MTA) for Cloud Foundry using your favorite IDE](https://blogs.sap.com/2018/02/05/building-multi-target-applications-mta-for-cloud-foundry-using-your-favorite-ide/)
 
 MTA is an SAP construct that allows you to combine modules into a single deployable unit for lifecycle maintenance. These modules could potentially use different runtimes (one on Node.js, one on Python, etc.). For more information on MTAs for the Cloud Foundry environment, please click [here](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html).
+
+SAP has developed and published an MTA plugin for Cloud Foundry CLI. This MTA plugin allows you to perform lifecycle operations like deployment and un-deployment on multi-target applications. The MTA plugin can be downloaded from SAP cloud platform tools page (search for MTA Plugin and pick your platform):
+
+https://tools.hana.ondemand.com/#cloud
