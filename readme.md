@@ -189,3 +189,5 @@ cf install-plugin service-fabrik-cli-plugin-1.0.3-windows-x86_64.exe
 5:31PM - 真的是版本的问题。
 
 try update: npm install -g npm
+
+https://api.cf.eu10.hana.ondemand.com API endpoint
