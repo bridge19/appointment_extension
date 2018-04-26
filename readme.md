@@ -119,3 +119,4 @@ java.lang.NullPointerException
  
  still go to neo environment to find webIDE service
  
+ cf-eu10: Cloud foundry trial
