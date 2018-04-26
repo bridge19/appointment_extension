@@ -143,3 +143,5 @@ github.wdf.sap.corp/xs2ds/cf-mta-plugin/vendor/github.com/cloudfoundry/cli/plugi
         /data/xmake/prod-build10010/w/xs2ds/xs2ds-cf-mta-plugin-OD-linuxx86_64/gen/go-workspace/go-path/src/github.wdf.sap.corp/xs2ds/cf-mta-plugin/vendor/github.com/cloudfoundry/cli/plugin/plugin_shim.go:16 +0x3c4
 main.main()
         /data/xmake/prod-build10010/w/xs2ds/xs2ds-cf-mta-plugin-OD-linuxx86_64/gen/go-workspace/go-path/src/github.wdf.sap.corp/xs2ds/cf-mta-plugin/mta_plugin.go:65 +0x4e
+
+3:42PM where is MTR.jar?
