@@ -111,3 +111,9 @@ java.lang.NullPointerException
 7:34PM hello world project工作了。
 
 8:15PM:  The deployment for the first time will not start application automatically, the second time did the trick!
+
+# 2018-04-26
+
+ * 2018-04-26 10:19AM now test in SAP corporate
+ * SDK I am using: C:\MyApp\neon\neo-java-web-sdk-3.51.14
+ 
