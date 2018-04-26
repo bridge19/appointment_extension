@@ -130,6 +130,7 @@ java.lang.NullPointerException
 
 The SAP Cloud Platform Cloud Foundry Plugins are used to extend the Cloud Foundry CLI with additional commands. 
 
-* MTA Plugin - Perform operations on multi-target applications (MTAs) such as deploying, removing, viewing, etc 
+* MTA Plugin - Perform operations on multi-target applications (MTAs) such as deploying, removing, viewing, etc - cf-cli-mta-plugin-2.0.3-windows-x86_64.exe
 
 * Service Fabrik based B&R - Perform backup and restore operations on service-instances 
+
