@@ -178,3 +178,5 @@ If a locally installed Grunt is found, the CLI loads the local installation of t
 java -jar mta.jar --build-target=CF --mtar=jerry.mtar build under folder mta1
 
 5:05PM build error - C:\Users\i042416\AppData\Roaming\npm-cache\_logs\2018-04-26T09_00_33_125Z-debug.log
+
+no useful log:  npm ERR! May not delete: c:\temp\mta1\frontend\node_modules\.bin
