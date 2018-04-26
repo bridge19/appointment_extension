@@ -184,3 +184,5 @@ no useful log:  npm ERR! May not delete: c:\temp\mta1\frontend\node_modules\.bin
 5:12PM 是因为这个plugin没有装？Service Fabrik based B&R
 
 cf install-plugin service-fabrik-cli-plugin-1.0.3-windows-x86_64.exe
+
+5:22PM - 我npm version：5.3.0
