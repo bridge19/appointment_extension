@@ -153,3 +153,7 @@ MTA is an SAP construct that allows you to combine modules into a single deploya
 SAP has developed and published an MTA plugin for Cloud Foundry CLI. This MTA plugin allows you to perform lifecycle operations like deployment and un-deployment on multi-target applications. The MTA plugin can be downloaded from SAP cloud platform tools page (search for MTA Plugin and pick your platform):
 
 https://tools.hana.ondemand.com/#cloud
+
+# Multi-target Application Archive Builder
+
+The multi-target application (MTA) archive builder is a command-line tool that packages an MTA into a deployable archive (MTAR).
