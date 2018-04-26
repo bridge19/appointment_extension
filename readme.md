@@ -147,3 +147,5 @@ main.main()
 3:42PM where is MTA.jar? MTA Archive Builder
 
 [Building multi-target applications (MTA) for Cloud Foundry using your favorite IDE](https://blogs.sap.com/2018/02/05/building-multi-target-applications-mta-for-cloud-foundry-using-your-favorite-ide/)
+
+MTA is an SAP construct that allows you to combine modules into a single deployable unit for lifecycle maintenance. These modules could potentially use different runtimes (one on Node.js, one on Python, etc.). For more information on MTAs for the Cloud Foundry environment, please click here.
