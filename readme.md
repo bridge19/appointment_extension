@@ -134,3 +134,12 @@ The SAP Cloud Platform Cloud Foundry Plugins are used to extend the Cloud Foundr
 
 * Service Fabrik based B&R - Perform backup and restore operations on service-instances 
 
+cf install-plugin cf-cli-mta-plugin-2.0.3-windows-x86_64.exe - 3:34PM
+
+panic: runtime error: index out of range
+
+goroutine 1 [running]:
+github.wdf.sap.corp/xs2ds/cf-mta-plugin/vendor/github.com/cloudfoundry/cli/plugin.Start(0xbd9b00, 0xc8e180)
+        /data/xmake/prod-build10010/w/xs2ds/xs2ds-cf-mta-plugin-OD-linuxx86_64/gen/go-workspace/go-path/src/github.wdf.sap.corp/xs2ds/cf-mta-plugin/vendor/github.com/cloudfoundry/cli/plugin/plugin_shim.go:16 +0x3c4
+main.main()
+        /data/xmake/prod-build10010/w/xs2ds/xs2ds-cf-mta-plugin-OD-linuxx86_64/gen/go-workspace/go-path/src/github.wdf.sap.corp/xs2ds/cf-mta-plugin/mta_plugin.go:65 +0x4e
