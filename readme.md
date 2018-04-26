@@ -191,3 +191,5 @@ cf install-plugin service-fabrik-cli-plugin-1.0.3-windows-x86_64.exe
 try update: npm install -g npm
 
 https://api.cf.eu10.hana.ondemand.com API endpoint
+
+done on 2018-04-26 6:01PM
