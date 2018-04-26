@@ -182,3 +182,5 @@ java -jar mta.jar --build-target=CF --mtar=jerry.mtar build under folder mta1
 no useful log:  npm ERR! May not delete: c:\temp\mta1\frontend\node_modules\.bin
 
 5:12PM 是因为这个plugin没有装？Service Fabrik based B&R
+
+cf install-plugin service-fabrik-cli-plugin-1.0.3-windows-x86_64.exe
