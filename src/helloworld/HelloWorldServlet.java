@@ -2,7 +2,6 @@ package helloworld;
 
 /* Jerry updated in 2018-04-25 8:13PM 
  * The deployment for the first time will not start application automatically!
- * 2018-04-26 10:19AM now test in SAP corporate
  * 
  * */
 import java.io.IOException;
