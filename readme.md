@@ -156,6 +156,8 @@ https://tools.hana.ondemand.com/#cloud
 
 # Multi-target Application Archive Builder
 
+Jerry: See [SAP help](https://help.sap.com/viewer/58746c584026430a890170ac4d87d03b/Cloud/en-US/ba7dd5a47b7a4858a652d15f9673c28d.html)
+
 The multi-target application (MTA) archive builder is a command-line tool that packages an MTA into a deployable archive (MTAR).
 
 The MTA archive builder is a standalone command-line tool that builds a deployment-ready MTAR (.mtar file) from the artifacts of an MTA project according to the project’s MTA development descriptor (mta.yaml file).
