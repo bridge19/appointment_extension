@@ -120,3 +120,5 @@ java.lang.NullPointerException
  still go to neo environment to find webIDE service
  
  cf-eu10: Cloud foundry trial
+
+ CF-OrgQuotaTotalRoutesExceeded(310006): You have exceeded the total routes for your organization's quota - 2:23PM
