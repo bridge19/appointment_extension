@@ -165,3 +165,5 @@ The MTA archive builder is a standalone command-line tool that builds a deployme
 [How to install the .jar file](https://help.sap.com/viewer/58746c584026430a890170ac4d87d03b/Cloud/en-US/9f778dba93934a80a51166da3ec64a05.html)
 
 MTABUILDER110_0-80002501.JAR
+
+npm install -g grunt-cli, This will put the grunt command in your system path, allowing it to be run from any directory.
